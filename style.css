@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gluten:wght@100;200;300&family=Lato:wght@100;400;700&family=Lobster&family=Noto+Sans:ital,wght@0,100;0,400;0,700;0,800;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1450px;
+  margin: 20px auto;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.menu-hb {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+
+.titulo {
+  max-width: 1450px;
+  margin: 5rem auto;
+}
+
+h1, h2 {
+  font-size: 8em;
+}
+
+h2 {
+  color: rgb(46, 44, 44);
+}
+
+.sobre {
+  max-width: 1450px;
+  margin: 1rem auto;
+}
+.sobre p {
+  max-width: 60%;
+}
+
+@media (max-width: 1060px) {
+  h1, h2 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 620px) {
+  .nav {
+    display: none;
+  }
+  .menu-hb {
+    display: block;
+    margin-right: 1rem;
+  }
+  .titulo {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .titulo h1, .titulo h2 {
+    font-size: 3rem;
+  }
+  .sobre p {
+    max-width: 100%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
