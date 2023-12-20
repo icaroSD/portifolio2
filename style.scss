@@ -9,6 +9,7 @@ ul{
     list-style: none;
 }
 a{
+    color: black;
     text-decoration: none;
 }
 header{
@@ -32,7 +33,10 @@ header{
     gap: 1rem;
     margin-right: 3rem;
 }
-
+main{
+    max-width: 1450px;
+    margin: 5rem auto;
+}
 .titulo{
     max-width: 1450px;
     margin: 5rem auto;
@@ -44,7 +48,7 @@ h2{
     color: rgb(46, 44, 44);
 }
 
-.sobre{
+.home{
     max-width: 1450px;
     margin: 1rem auto;
 
@@ -79,11 +83,57 @@ h2{
        
     }
 
-    .sobre{
+    .home{
       p{ max-width: 100%;
         text-align: center;
       }
 
       
 }
+}
+
+
+
+//projeto//
+
+.projetos{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h2{
+        color: black;
+    }
+}
+
+#trabalhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+
+    .trab{
+        width:30%;
+        height:30vh;
+        background: grey;
+        box-shadow: 1px 1px 5px black;
+    }
+}
+
+.sobre{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+footer ul{
+        max-width: 1450px;
+        margin:0 auto; 
+        background: grey;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 }

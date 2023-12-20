@@ -11,6 +11,7 @@ ul {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -39,6 +40,11 @@ header {
   margin-right: 3rem;
 }
 
+main {
+  max-width: 1450px;
+  margin: 5rem auto;
+}
+
 .titulo {
   max-width: 1450px;
   margin: 5rem auto;
@@ -52,11 +58,11 @@ h2 {
   color: rgb(46, 44, 44);
 }
 
-.sobre {
+.home {
   max-width: 1450px;
   margin: 1rem auto;
 }
-.sobre p {
+.home p {
   max-width: 60%;
 }
 
@@ -80,8 +86,47 @@ h2 {
   .titulo h1, .titulo h2 {
     font-size: 3rem;
   }
-  .sobre p {
+  .home p {
     max-width: 100%;
     text-align: center;
   }
+}
+.projetos {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.projetos h2 {
+  color: black;
+}
+
+#trabalhos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+#trabalhos .trab {
+  width: 30%;
+  height: 30vh;
+  background: grey;
+  box-shadow: 1px 1px 5px black;
+}
+
+.sobre {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer ul {
+  max-width: 1450px;
+  margin: 0 auto;
+  background: grey;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
