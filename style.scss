@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gluten:wght@100;200;300&family=Lato:wght@100;400;700&family=Lobster&family=Noto+Sans:ital,wght@0,100;0,400;0,700;0,800;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
-    margin: 5px;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Serif Display', serif;
@@ -112,11 +112,11 @@ h2{
     justify-content: center;
     margin-top: 3rem;
 
-    .trab{
-        width:30%;
-        height:30vh;
-        background: grey;
-        box-shadow: 1px 1px 5px black;
+.trab{
+        width:35%;
+    }
+    img{
+        height:40vh;
     }
 }
 
@@ -129,11 +129,35 @@ h2{
 }
 
 footer ul{
-        max-width: 1450px;
         margin:0 auto; 
         background: grey;
         height: 10vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
+      a{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        text-shadow: 2px 2px 1px black;
+      }
+
+      a:hover{
+        color: black;
+        font-size: 1.3rem;
+        text-shadow: none;
+      }
+
+}
+
+#sites{
+    max-width: 1450px;
+    margin: 5rem auto;
+
+    .pagina{
+        border: 1px solid black;
+        
+    }
+    img{
+        max-width: 1430px;
+    }
 }
